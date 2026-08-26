@@ -1,0 +1,37 @@
+# Environment and credentials
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.testing
+**/google-services.json
+**/GoogleService-Info.plist
+**/*firebase*.json
+**/*service-account*.json
+**/*.jks
+**/*.keystore
+**/*.key
+**/*.pem
+
+# Dependencies and generated files
+**/vendor/
+**/node_modules/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/.gradle/
+**/android/local.properties
+
+# IDE and operating-system files
+**/.idea/
+**/.vscode/
+**/*.iml
+**/.DS_Store
+**/Thumbs.db
+
+# Runtime-generated Laravel files
+backend/storage/logs/*.log
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*

@@ -1,0 +1,51 @@
+abstract final class AppRoutes {
+  static const splash = '/';
+  static const login = '/login';
+  static const register = '/register';
+  static const guestExplorer = '/guest';
+  static const memberShell = '/member';
+  static const trainerShell = '/trainer';
+  static const programTracker = '/member/program-tracker';
+  static const memberTrainerRating = '/member/trainer-rating';
+  static const liveTrainingSession = '/training/live-session';
+  static const membershipPackages = '/member/membership-packages';
+  static const paymentCheckout = '/member/payment-checkout';
+  static const paymentSuccess = '/member/payment-success';
+  static const memberPhysicalProgress = '/member/physical-progress';
+  static const memberPhysicalProgressForm = '/member/physical-progress/form';
+  static const memberCheckpointDetail = '/member/physical-progress/detail';
+  static const memberAllCheckpoints = '/member/physical-progress/all';
+  static const equipmentDetail = '/equipment/detail';
+  static const memberEquipmentCatalog = '/member/equipment';
+  static const memberPersonalInfo = '/member/personal-info';
+  static const trainerAccountSettings = '/trainer/account-settings';
+  static const trainerSchedule = '/trainer/schedule';
+  static const trainerScheduleDates = '/trainer/schedule-dates';
+  static const trainerProgramBuilder = '/trainer/program-builder';
+  static const editTrainingSession = '/trainer/edit-training-session';
+  static const trainerProgressControl = '/trainer/progress-control';
+  static const trainerProgressiveUnlockTimeline =
+      '/trainer/progressive-unlock-timeline';
+  static const trainerShareProfile = '/trainer/share-profile';
+  static const trainerSessionDetail = '/trainer/session-detail';
+  static const trainerBookingDetail = '/trainer/booking-detail';
+  static const bookingConfirmation = '/trainer/booking-confirmation';
+  static const bookingReschedule = '/trainer/booking-reschedule';
+  static const clientDetail = '/trainer/client-detail';
+  static const trainerProfileDetail = '/trainer/profile-detail';
+  static const trainerAllReviews = '/trainer/all-reviews';
+  static const memberAllTransactions = '/member/all-transactions';
+  static const projectBoard = '/project-board';
+  static const notifications = '/notifications';
+  static const helpCenter = '/help';
+  static const memberBookingForm = '/member/booking-form';
+  static const memberSessionTimeline = '/member/session-timeline';
+  static const memberSessionDetail = '/member/session-detail';
+  static const memberSessionDetailReadOnly = '/member/session-detail-read-only';
+  static const memberSelfTrainingDetail = '/member/self-training-detail';
+  static const memberSelfTrainingSessionDetail =
+      '/member/self-training-session-detail';
+  static const memberSelfTrainingBuilder = '/member/self-training-builder';
+  static const memberSelfTrainingProgress = '/member/self-training-progress';
+  static const bookingPayment = '/member/booking-payment';
+}
