@@ -55,4 +55,4 @@ egg-gym-platform/
 ## Kontak
 
 Muhammad Naufal Zakwan
-[LinkedIn](link-linkedin-kamu) · [Email](mailto:naufal1103@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/muhammad-naufal-zakwan/) · [Email](mailto:naufal1103@gmail.com)
